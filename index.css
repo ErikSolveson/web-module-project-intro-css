@@ -149,10 +149,11 @@ section.main {
   margin: auto;
   padding: 1.5em;
   border-radius: 5px;
+  color: white;
 }
 .main-container {
   margin-bottom: 2em;
-  /* margin-top: 2em; */
+  margin-top: 2em;
 }
 header {
   display: block;
@@ -191,9 +192,15 @@ nav a::after {
 }
 
 .sidebar {
-  display: inline;
+  display: block;
   margin: auto;
   width: 80%;
+  text-align: center;
+}
+
+.right {
+  float: right;
+  width: calc(100%-400px);
 }
 
 .orange-background {
@@ -225,10 +232,10 @@ section.supP > p {
 /* Images */
 
 img.header-img {
-  width: 110px;
+  width: 200px;
   height: auto;
   border-radius: 50%;
-  float: left;
+  margin: auto;
 }
 
 /* img.footer-img {
