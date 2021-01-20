@@ -141,6 +141,7 @@ nav {
   align-content: center;
   min-width: 600px;
   text-align: center;
+  margin-top: 2em;
 }
 
 section.main {
@@ -178,8 +179,9 @@ nav a {
   height: 3em;
   text-align: center;
   text-transform: capitalize;
-  margin-left: 4em;
+  margin-left: 4.5em;
   color: white;
+  padding-top: 1em;
 }
 
 nav a::after {
@@ -196,6 +198,7 @@ nav a::after {
   margin: auto;
   width: 80%;
   text-align: center;
+  padding-top: 2em;
 }
 
 .right {
@@ -203,6 +206,9 @@ nav a::after {
   width: calc(100%-400px);
 }
 
+.right h2 {
+  margin-top: 2em;
+}
 .orange-background {
   background-color: #ff764e;
 }
@@ -254,7 +260,7 @@ img.header-img {
 }
 
 #fire-icon {
-  width: 5em;
+  width: 9.5em;
   height: auto;
   margin: auto;
   text-align: center;
@@ -262,7 +268,7 @@ img.header-img {
 }
 
 #camper-icon {
-  width: 5em;
+  width: 9.5em;
   height: auto;
   margin: auto;
   display: block;
